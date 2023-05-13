@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components/macro'
+import { createGlobalStyle } from "styled-components/macro";
 
 const GlobalStyle = createGlobalStyle`
   html, body, div, span, applet, object, iframe,
@@ -17,39 +17,19 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
   }
 
   * {
     box-sizing: border-box;
-  }
-
-  html {
-    font-size: 62.5%; /* 1rem = 10px */
-    height: 100%;
-  }
-
-  body {
-    height: 100%;
     padding: 0;
     margin: 0;
-    font-size: 1.6rem;
-    font-family: 'Lato', sans-serif;
-
   }
 
-  #root {
-    min-height: 100%;
-    display: flex;
-    flex-direction: column;
-  }
 
   a {
     text-decoration: none;
     outline: none;
   }
 
-`
-export default GlobalStyle
+`;
+export default GlobalStyle;

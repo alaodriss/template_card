@@ -25,10 +25,10 @@ const Form = () => {
   return (
     <div className="card_infos">
       <div className="cards">
-        <div>
+        <div className="card1">
           <img src={front} alt="card_front" />
         </div>
-        <div>
+        <div className="card2">
           <img src={back} alt="card_back" />
         </div>
       </div>
@@ -62,7 +62,7 @@ const Form = () => {
         </div>
 
         <div className="box">
-          <div className="data_ex^">
+          <div className="date_ex">
             <label htmlFor="mm">
               EXP.DATE
               <input
@@ -85,8 +85,6 @@ const Form = () => {
                 onChange={handleInputChange}
               />
             </label>
-          </div>
-          <div className="cvc">
             <label htmlFor="cvc">
               CVC
               <input
