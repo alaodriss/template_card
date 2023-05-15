@@ -23,7 +23,11 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Space Grotesk', sans-serif;
   }
+
+
+  html, body {margin: 0; height: 100%; overflow: hidden}
 
 
   a {
